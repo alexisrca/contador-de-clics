@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #1b1b32;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  font-family: Lato, sans-serif;
+  border: 5px solid yellow;
+}
+
+.freecodecamp-logo-contenedor {
+  border: 3px solid lightgreen;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.freecodecamp-logo {
+  height: 50px;
+}
+
